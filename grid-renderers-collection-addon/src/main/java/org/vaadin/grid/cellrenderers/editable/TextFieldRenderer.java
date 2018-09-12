@@ -63,7 +63,7 @@ public class TextFieldRenderer<T> extends EditableRenderer<T> {
                         cell.setValue(value);
                     }
                     catch (ConversionException e) {
-                        Notification.show(e.getMessage(), Notification.Type.ERROR_MESSAGE);
+                        Notification.show(e.getMessage(), Notification.Type.HUMANIZED_MESSAGE);
                         // in this case refresh the row to show the current (=old) cell value.
                         getParentGrid().refreshRows(itemId);
                     }
