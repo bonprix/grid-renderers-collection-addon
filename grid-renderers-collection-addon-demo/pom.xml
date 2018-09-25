@@ -80,8 +80,7 @@
 		<dependency>
 			<groupId>com.vaadin</groupId>
 			<artifactId>grid-renderers-collection-addon</artifactId>
-            <version>0.98-bp-SNAPSHOT</version>
-			<!--  version>${version}</version -->
+			<version>${project.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>com.vaadin</groupId>
